@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "if-env TYPE=server && (cd server && npm install) || (cd client && npm install)"
   },
   "author": "",
   "license": "ISC"
