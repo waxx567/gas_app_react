@@ -2,8 +2,10 @@
 
 Gas delivery API
 
-Frontend:
+Frontend setup:
 npm create vite@latest
 Project name: client
 Framework: React
 Variant: JavaScript
+cd client
+npm install
