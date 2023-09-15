@@ -2,4 +2,8 @@
 
 Gas delivery API
 
-npx create-expo-app client
+Frontend:
+npm create vite@latest
+Project name: client
+Framework: React
+Variant: JavaScript
