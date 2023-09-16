@@ -12,13 +12,13 @@ body {
     background: white;
 }
 
-li {
+/* li {
     list-style: none;
     cursor: pointer;
     position: relative;
-}
+} */
 
-li:hover::before {
+/* li:hover::before {
     position: absolute;
     content: '';
     height: 4px;
@@ -26,9 +26,12 @@ li:hover::before {
     background: #2a68ff;
     right: 0;
     color: #2a68ff;
-}
+} */
 
-.icon {
+/* .icon {
     cursor: pointer;
-}
+} */
 
+/* .card {
+    background: #000;
+} */
