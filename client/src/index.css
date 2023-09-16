@@ -4,3 +4,20 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: white;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+}
+
+li:hover::before {
+    position: inherit;
+}
