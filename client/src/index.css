@@ -27,3 +27,8 @@ li:hover::before {
     right: 0;
     color: #2a68ff;
 }
+
+.icon {
+    cursor: pointer;
+}
+
