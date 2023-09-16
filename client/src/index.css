@@ -19,5 +19,11 @@ li {
 }
 
 li:hover::before {
-    position: inherit;
+    position: absolute;
+    content: '';
+    height: 4px;
+    width: 100%;
+    background: #2a68ff;
+    right: 0;
+    color: #2a68ff;
 }
