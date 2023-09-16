@@ -2,7 +2,9 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>Testing
+        <p className='text-green-600'>Tailwind too</p>
+    </div>
   )
 }
 
