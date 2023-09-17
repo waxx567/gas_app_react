@@ -4,7 +4,7 @@ Names considered:
 TheGasGuys
 GasToGo
 
-Frontend setup:
+Frontend setup using ReactJS and Vite:
 npm create vite@latest
 Project name: client
 Framework: React
