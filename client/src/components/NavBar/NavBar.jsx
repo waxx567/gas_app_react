@@ -2,8 +2,10 @@ import React from 'react'
 
 const NavBar = () => {
   return (
-    <div>
-      NavBar
+    <div className='navBar flex justify-between items-center p-[3rem]'>
+      <div className='logoDiv'>
+        <h1 className='logo'>Go<strong>Gas</strong>Go</h1>
+      </div>
     </div>
   )
 }
