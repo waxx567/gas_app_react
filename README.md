@@ -1,6 +1,8 @@
-# gas_app_react
+# GoGasGo gas delivery API
 
-Gas delivery API
+Names considered:
+TheGasGuys
+GasToGo
 
 Frontend setup:
 npm create vite@latest
