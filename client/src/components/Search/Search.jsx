@@ -8,7 +8,7 @@ const Search = () => {
       <form action=''>
         <div className='firstDiv flex justify-between items-center rounded-[8px] gap-[10px] bg-white p-5 shadow-lg shadow-greyIsh-700'>
             <div className='flex gap-2 items-center'>
-                <AiOutlineSearch/>
+                <AiOutlineSearch className='text-[25px] icon'/>
             </div>
         </div>
       </form>
