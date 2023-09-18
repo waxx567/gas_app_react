@@ -32,6 +32,11 @@ const Search = () => {
 
         </div>
       </form>
+
+      <div className='secDiv flex items-center gap-10 justify-center'>
+
+      </div>
+
     </div>
   )
 }
