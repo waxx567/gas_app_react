@@ -2,7 +2,7 @@ import React from 'react'
 import NavBar from './components/NavBar/NavBar'
 import Search from './components/Search/Search'
 import Products from './components/Products/Products'
-import Value from './components/Value/Value'
+import Cards from './components/Cards/Cards'
 import Footer from './components/Footer/Footer'
 
 const App = () => {
@@ -11,7 +11,7 @@ const App = () => {
       <NavBar />
       <Search />
       <Products />
-      <Value />
+      <Cards />
       <Footer />
     </div>
   )
