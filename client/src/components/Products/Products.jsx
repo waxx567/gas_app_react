@@ -14,7 +14,7 @@ const Data = [
   {
     id: 1,
     title: '5Kg bottle',
-    time: 'Immediate',
+    time: 'Same day',
     image: gas05,
     price: 'R300.00',
     desc: 'Price is for empty bottle exchange and includes delivery'
@@ -22,7 +22,7 @@ const Data = [
   {
     id: 2,
     title: '9Kg bottle',
-    time: 'Immediate',
+    time: 'Same day',
     image: gas09,
     price: 'R390.00',
     desc: 'Price is for empty bottle exchange and includes delivery'
