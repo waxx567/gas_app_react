@@ -15,7 +15,7 @@ const Products = () => {
             </span>
           </span>
           <h6 className='text-[#ccc]'>R280.00</h6>
-          <img src='../public/assets/gas_05.png' alt='5Kg gas bottle' />
+          <img src='../assets/gas_05.png' alt='5Kg gas bottle' />
           <p className='text-[13px] text-[#959595] pt-[20px] border-t-[2px] mt-[20px] group-hover:text-white'>*price includes delivery</p>
         </div>
 
@@ -27,7 +27,7 @@ const Products = () => {
             </span>
           </span>
           <h6 className='text-[#ccc]'>R370.00</h6>
-          <img src='../public/assets/gas_09.png' alt='5Kg gas bottle' />
+          <img src='/assets/gas_09.png' alt='5Kg gas bottle' />
           <p className='text-[13px] text-[#959595] pt-[20px] border-t-[2px] mt-[20px] group-hover:text-white'>*price includes delivery</p>
         </div>
 
@@ -39,7 +39,7 @@ const Products = () => {
             </span>
           </span>
           <h6 className='text-[#ccc]'>R580.00</h6>
-          <img src='../public/assets/gas_12.png' alt='5Kg gas bottle' />
+          <img src='../assets/gas_12.png' alt='5Kg gas bottle' />
           <p className='text-[13px] text-[#959595] pt-[20px] border-t-[2px] mt-[20px] group-hover:text-white'>*price includes delivery</p>
         </div>
 
@@ -51,7 +51,7 @@ const Products = () => {
             </span>
           </span>
           <h6 className='text-[#ccc]'>R750.00</h6>
-          <img src='../public/assets/gas_18.png' alt='5Kg gas bottle' />
+          <img src='../assets/gas_18.png' alt='5Kg gas bottle' />
           <p className='text-[13px] text-[#959595] pt-[20px] border-t-[2px] mt-[20px] group-hover:text-white'>*price includes delivery</p>
         </div>
 
