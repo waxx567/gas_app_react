@@ -34,6 +34,7 @@ const Search = () => {
       </form>
 
       <div className='secDiv flex items-center gap-10 justify-center'>
+
         <div className='singleSearch flex items-center gap-2'>
           <label htmlFor='relevance' className='text-[#808080] font-semibold'>Sort by:</label>
           <select name='' id='relevance' className='bg-white rounded-[3px] px-4 py-1'>
@@ -43,6 +44,29 @@ const Search = () => {
             <option value=''>Contains</option>
           </select>
         </div>
+
+        <div className='singleSearch flex items-center gap-2'>
+          <label htmlFor='type' className='text-[#808080] font-semibold'>Type:</label>
+          <select name='' id='type' className='bg-white rounded-[3px] px-4 py-1'>
+            <option value=''>Full-time</option>
+            <option value=''>Remote</option>
+            <option value=''>Contract</option>
+            <option value=''>Part-time</option>
+          </select>
+        </div>
+
+        <div className='singleSearch flex items-center gap-2'>
+          <label htmlFor='level' className='text-[#808080] font-semibold'>Level:</label>
+          <select name='' id='level' className='bg-white rounded-[3px] px-4 py-1'>
+            <option value=''>Senior</option>
+            <option value=''>Beginner</option>
+            <option value=''>Intermediate</option>
+            <option value=''>Advocate</option>
+          </select>
+        </div>
+
+        <span className='text-[#a1a1a1] cursor-pointer'>Clear all</span>
+
       </div>
 
     </div>
