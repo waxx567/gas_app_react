@@ -1,5 +1,6 @@
 import React from 'react'
 
+// Import icons
 import { AiOutlineCloseCircle, AiOutlineSearch } from 'react-icons/ai'
 import { BsHouseDoor } from 'react-icons/bs'
 import { CiLocationOn } from 'react-icons/ci'
