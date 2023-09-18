@@ -11,3 +11,6 @@ Framework: React
 Variant: JavaScript
 cd client
 npm install
+
+Mastercard VISA logo attribution:
+<a href="https://www.freepnglogos.com/images/visa-logo-png-2028.html">Get it on visa card and mastercard logo png</a>
