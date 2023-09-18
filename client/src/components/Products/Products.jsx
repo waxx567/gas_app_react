@@ -9,40 +9,37 @@ import gas09 from '../../assets/gas_09.png'
 import gas12 from '../../assets/gas_12.png'
 import gas18 from '../../assets/gas_18.png'
 
-const Data [
-  // 5Kg gas bottle  
+// Array to store products
+const Data = [
   {
     id: 1,
-    image: gas05,
     title: '5Kg bottle',
     time: 'Available',
-    price: 'R280.00',
+    image: gas05,
+    price: 'R300.00',
     desc: 'Price is for empty bottle exchange and includes delivery'
-  }
-  // 9Kg gas bottle  
+  },
   {
     id: 2,
-    image: gas09,
     title: '9Kg bottle',
     time: 'Available',
+    image: gas09,
     price: 'R390.00',
     desc: 'Price is for empty bottle exchange and includes delivery'
-  }
-  // 12Kg gas bottle  
+  },
   {
     id: 3,
-    image: gas12,
     title: '12Kg bottle',
     time: 'Available',
+    image: gas12,
     price: 'R580.00',
     desc: 'Price is for empty bottle exchange and includes delivery'
-  }
-  // 18Kg gas bottle  
+  },
   {
     id: 4,
-    image: gas18,
     title: '18Kg bottle',
     time: 'Available',
+    image: gas18,
     price: 'R850.00',
     desc: 'Price is for empty bottle exchange and includes delivery'
   }
@@ -54,9 +51,9 @@ const Products = () => {
       {/* Product container */}
       <div className='prodContainer flex gap-10 justify-center flex-wrap items-center py-10'>
 
-        {/* Each product */}
+        {/* Display each product */}
         {
-          Data.map(({id,image,title,time,price,desc}) =>{
+          Data.map(({id, image, title, time, price, desc}) =>{
             return (
               <div key={id} className='group group/item singleProduct w-[250px] p-[20px] bg-white rounded-[10px] hover:bg-blueColor shadow-lg shadow-greyIsh-400/700 hover:shadow-lg'>
                 <span className='flex justify-between items-center gap-4'>
