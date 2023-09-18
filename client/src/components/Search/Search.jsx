@@ -28,6 +28,8 @@ const Search = () => {
                 <AiOutlineCloseCircle className='text-[30px] text-[#a5a6a6] hover:text-textColor icon'/>
           </div>
 
+          <button className='bg-blueColor h-full p-5 px-10 rounded-[10px] text-white'>Search</button>
+
         </div>
       </form>
     </div>
