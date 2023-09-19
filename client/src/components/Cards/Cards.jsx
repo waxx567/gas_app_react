@@ -11,11 +11,7 @@ const Value = () => {
       
       <h2 className='text-textColor text-[20px] py-[2rem] pb-[3rem] font-semibold w-[400px] block'>We accept these cards:</h2>
 
-      <div className='card'>
-        
-      </div>
-
-      {/* <img src={logos} alt='card logos' className='m-auto w-[250px] max-w-[50%]' /> */}
+      <img src={logos} alt='card logos' className='m-auto w-[250px] max-w-[50%]' />
       
     </div>
   )
