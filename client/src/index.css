@@ -33,6 +33,6 @@ li:hover::before {
     cursor: pointer;
 }
 
-/* .card {
+.card {
     background: #000;
-} */
+}
