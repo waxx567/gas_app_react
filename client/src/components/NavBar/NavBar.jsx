@@ -5,7 +5,7 @@ const NavBar = () => {
     <div className='navBar flex justify-between items-center p-[3rem]'>
       <div className='logoDiv'>
         <h1 className='logo text-[25px] text-blueColor'>
-          Go<strong>Gas</strong>Go
+          Go<strong>GAS</strong>Go
         </h1>
       </div>
       <div className='menu flex gap-8'>
