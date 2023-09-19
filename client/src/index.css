@@ -33,6 +33,6 @@ li:hover::before {
     cursor: pointer;
 }
 
-.card {
-    background: url(/src/assets/visa-mcard-logo.png);
-}
+/* .card {
+    background: #000;
+} */
