@@ -7,11 +7,11 @@ import { CiLocationOn } from 'react-icons/ci'
 const Footer = () => {
   return (
     <div className='p-[5rem] mb-4 bg-blueColor rounded-[10px] gap-[8] grid grid-cols-2 m-auto items-center justify-center'>
-      {/* <div className='flex items-center'> */}
+      <div className='flex items-center'>
 
         <div className='logoDiv'>
           <h1 className='logo text-[25px] text-white pb-[1.5rem]'>
-            Go<strong>Gas</strong>Go
+            Go<strong>GAS</strong>Go
           </h1>
           <p className='text-[12px] text-white pb-[13px] opacity-70 leading-7'>
             We are committed to providing the best experience to suit your needs
@@ -30,7 +30,7 @@ const Footer = () => {
           </p>
         </div>
 
-      {/* </div> */}
+      </div>
     </div>
   )
 }
