@@ -36,10 +36,26 @@ const NavBar = () => {
         </h1>
       </div>
       <div className='menu flex gap-8'>
-        <li className='menuList text-[#6f6f6f] hover:text-blueColor'><span><About/></span></li>
-        <li className='menuList text-[#6f6f6f] hover:text-blueColor'><span><Contact/></span></li>
-        <li className='menuList text-[#6f6f6f] hover:text-blueColor'><span><Login/></span></li>
-        <li className='menuList text-[#6f6f6f] hover:text-blueColor'><span><Register/></span></li>
+        <li className='menuList text-[#6f6f6f] hover:text-blueColor'>
+          <span>
+            <RouterProvider router={router}/>
+          </span>
+        </li>
+        <li className='menuList text-[#6f6f6f] hover:text-blueColor'>
+          <span>
+            <RouterProvider router={router}/>
+          </span>
+        </li>
+        <li className='menuList text-[#6f6f6f] hover:text-blueColor'>
+          <span>
+            <RouterProvider router={router}/>
+          </span>
+        </li>
+        <li className='menuList text-[#6f6f6f] hover:text-blueColor'>
+          <span>
+            <RouterProvider router={router}/>
+          </span>
+        </li>
       </div>
     </div>
   )
