@@ -41,7 +41,7 @@ const NavBar = () => {
             <RouterProvider router={router}/>
           </span>
         </li>
-        <li className='menuList text-[#6f6f6f] hover:text-blueColor'>
+        {/* <li className='menuList text-[#6f6f6f] hover:text-blueColor'>
           <span>
             <RouterProvider router={router}/>
           </span>
@@ -55,7 +55,7 @@ const NavBar = () => {
           <span>
             <RouterProvider router={router}/>
           </span>
-        </li>
+        </li> */}
       </div>
     </div>
   )
